@@ -9,13 +9,17 @@ public class add {
 	}
 	public String name(String name) {
 		System.out.println(name);
+		System.out.println("   ");
 		return name;
+		
 	}
 	public static void main(String[] args) {
 		add l=new add();
 		int k=l.add(12, 34);	
 		System.out.println("the value is "+k);
 		String g=l.name("raghu");
+		System.out.println(l);System.out.println(g);
+		System.out.println(g);
 	}
 
 }
